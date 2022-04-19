@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLink",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "Github",
+        "Facebook",
+        "LinkedIn"
+      ],
+      "required": true,
+      "default": "Twitter"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
