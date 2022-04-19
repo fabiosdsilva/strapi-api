@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "priceTotal": {
+      "type": "integer",
+      "required": true,
+      "default": 549
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true,
+      "default": 6
+    },
+    "priceInstallments": {
+      "type": "integer",
+      "required": true,
+      "default": 66
+    },
+    "beneficios": {
+      "type": "richtext",
+      "default": "Criar itens como uma lista",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
