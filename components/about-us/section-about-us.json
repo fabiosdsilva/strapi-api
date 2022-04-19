@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_us_section_aboutuses",
+  "info": {
+    "name": "sectionAboutUs",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
